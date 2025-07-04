@@ -1,3 +1,5 @@
+skip_if_not_installed("robvis")
+
 dat <- robvis::data_bias_direction %>%
   tri_to_long() %>%
   tri_absolute_direction() %>%
