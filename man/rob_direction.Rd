@@ -33,7 +33,7 @@ vector will be placed at the top of the graph)}
 
 \item{label_subgroup_summary}{Annotation text for subgroup label}
 
-\item{...}{Other arguments to pass to metafor::forest}
+\item{...}{Other arguments to pass to \code{\link[metafor:forest]{metafor::forest()}}}
 }
 \description{
 Bias direction plots

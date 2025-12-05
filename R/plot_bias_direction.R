@@ -44,7 +44,7 @@ tri_plot_bias_direction <- function(dat, dat_adj = NULL, title = NULL, grouping 
 #'   in order, starting at the bottom of the graph (i.e. the last item in the
 #'   vector will be placed at the top of the graph)
 #' @param label_subgroup_summary Annotation text for subgroup label
-#' @param ... Other arguments to pass to metafor::forest
+#' @param ... Other arguments to pass to [metafor::forest()]
 #'
 #' @keywords internal
 
